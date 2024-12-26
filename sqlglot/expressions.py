@@ -4777,7 +4777,6 @@ class BitwiseRightShift(Binary):
 class BitwiseXor(Binary):
     pass
 
-
 class Div(Binary):
     arg_types = {"this": True, "expression": True, "typed": False, "safe": False}
 
